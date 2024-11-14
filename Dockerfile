@@ -1,0 +1,20 @@
+# Repo By @SahedSarker
+# Don't Remove Editing Credit 
+# If You Already Removed, Congratulations You Are Gay
+
+FROM python:3.8-slim-buster
+
+RUN apt update && apt upgrade -y
+RUN apt install git -y
+COPY requirements.txt /requirements.txt
+
+RUN cd /
+RUN pip3 install -U pip && pip3 install -U -r requirements.txt
+RUN mkdir /fwdbot
+WORKDIR /fwdbot
+COPY start.sh /start.sh
+CMD ["/bin/bash", "/start.sh"] 
+
+# Repo By @SahedSarker
+# Don't Remove Editing Credit 
+# If You Already Removed, Congratulations You Are Gay
