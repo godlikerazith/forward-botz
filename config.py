@@ -6,8 +6,8 @@ from os import environ
 # If You Already Removed, Congratulations You Are Gay
 
 class Config:
-    API_ID = environ.get("API_ID", "20059547")
-    API_HASH = environ.get("API_HASH", "b399bfcd23ffc95ba7b20904fa5cb35f")
+    API_ID = environ.get("API_ID", "26656618")
+    API_HASH = environ.get("API_HASH", "2850721c73dbc207b5cf15362c28a66c")
     BOT_TOKEN = environ.get("BOT_TOKEN", "7245210989:AAGCtSmRdHzaN6SroGKqiASKBBdrsdZb11k") 
     BOT_SESSION = environ.get("BOT_SESSION", "RS_Forward_Bot") 
     DATABASE_URI = environ.get("DATABASE", "mongodb+srv://ghostcm83:2YpZjH8pafFc9ZJh@cluster0.ohbn7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
