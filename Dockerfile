@@ -1,7 +1,3 @@
-# Repo By @SahedSarker
-# Don't Remove Editing Credit 
-# If You Already Removed, Congratulations You Are Gay
-
 FROM python:3.8-slim-buster
 
 RUN apt update && apt upgrade -y
@@ -14,7 +10,3 @@ RUN mkdir /fwdbot
 WORKDIR /fwdbot
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"] 
-
-# Repo By @SahedSarker
-# Don't Remove Editing Credit 
-# If You Already Removed, Congratulations You Are Gay
